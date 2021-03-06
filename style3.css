@@ -1,0 +1,155 @@
+body{
+	margin-bottom: 0px;
+	padding: 0px;
+	background-image: url(askme.png);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;  
+  	background-size: cover;
+	font-family: sans-serif;
+	height: 100px;
+}
+
+.nama{
+	margin-top: 0px;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.kotak{
+	width: 1300px;
+	height: 500px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	box-sizing: border-box;
+	padding: 70px;
+	transform: translate(-50%, -50%);
+}
+
+.login-box1{
+	margin-top: 20px;
+	margin-left: 320px;
+
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.tombol{
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #f2f2f2;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.75rem;
+  line-height: 1.5rem;
+  position: relative;
+  @media (min-width: 640px) {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.login-box1 p{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.login-box1 input{
+	width: 530px;
+	margin-bottom: 20px;
+}
+
+.login-box1 input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff; 
+	background: transparent; 
+	outline: none;
+	height: 30px;
+	color: #fff;
+	font-size: 12px;
+}
+
+input[type=textq], select, textarea {
+  	width: 100%;
+  	padding: 12px;
+  	resize: horizontal;
+  	background: transparent;
+  	color: #f2f2f2;
+}
+
+input[type="submit"]{
+	margin-right: 20px;
+	border: none;
+	outline: none;
+	height: 20px;
+	width: 100px;
+	color: #fff
+	font-size: 14px;
+	border-radius: 20px;
+	background: #1c8adb;
+}
+
+input[type="submit"]:hover{
+	cursor: pointer;
+	background: #E33D56;
+	color: #fff;
+}
+
+.login-box1 a{
+	text-decoration: none;
+	font-size: 10px;
+	color: #fff
+}
+
+.login-box1 a:hover{
+	color: #E33D56;
+}
+
+footer ul li {
+ 	display: inherit;
+ 	justify-content: 1;
+	color: #fff;
+	margin-left:50px ;
+}
+
+.medsos {
+	padding:10px;
+	background-color: #000000;
+	margin-top: 529px;
+	background: rgba(0,0,0,0.5);
+}
+
+.medsos ul li {
+	display: inline-block;
+	color: #fff;
+	margin-right: 15px;
+}
+
